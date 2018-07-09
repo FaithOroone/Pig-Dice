@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Pig-Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>let us play PigDice</h1>
+      <h3>Instructions</h3>
+      <ul>
+        <li>Pig Dice is a sample dice game which is playable with just a single dice.</li>
+        <li>One wins by becoming the first plyer to score more than 100 points.</li>
+        <li>The two players need to enter their Names before starting the game</li>
+      </ul>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="form-group" action="index.html" method="post">
+            <div class="form-group">
+              <label for="player1">Player One</label>
+              <input type="text" class="form-control"placeholder="Name" required>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <form class="form-group" action="index.html" method="post">
+            <div class="from-group">
+              <label for="player2">Player Two</label>
+              <input type="text" class="form-control"placeholder="Name" required>
+            </div>
+          </form>
+          <button type="button" class="btn-success btn" name="button" >start</button>
+        </div>
+      </div>
+    </div><!--closes container-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Player One</h3>
+          <button type="button" class="btn-success btn" name="button">Roll</button>
+          <button type="button" class="btn-success btn"name="button">Hold</button><br>
+          <a href="#"><span>Pig-Dice Roll</span></a>
+          <a href="#"><span>Round Total</span></a>
+          <a href="#"><span>Total Score</span></a>
+        </div>
+        <div class="col-md-6">
+          <h3>Player Two</h3>
+          <button type="button" class="btn-success btn" name="button">Roll</button>
+          <button type="button" class="btn-success btn"name="button">Hold</button><br>
+          <a href="#"><span>Pig-Dice Roll</span></a>
+          <a href="#"><span>Round Total</span></a>
+          <a href="#"><span>Total Score</span></a>
+        </div>
+      </div>
+      <button type="submit" class="btn-success btn"name="button">New Game</button>
+    </div>
+    <script   src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
