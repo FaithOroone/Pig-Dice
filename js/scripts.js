@@ -12,8 +12,8 @@ $(document).ready(function(){
     event.preventDefault();
     firstplayer = new player(true);
     secondplayer = new player(false);
-    $(#game).show();
-    $(#bdy).hide();
+    $(#secondCont).show();
+    $(#firstCont).hide();
 
     let player1 =$().val(.player1Name);
     $(#player1Name).text(player1);
