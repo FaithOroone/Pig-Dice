@@ -15,10 +15,10 @@ $(document).ready(function(){
     $(#secondCont).show();
     $(#firstCont).hide();
 
-    let player1 =$().val(.player1Name);
+    let player1 =$().val();
     $(#player1Name).text(player1);
 
-    let player2 =$().val(.player2Name);
+    let player2 =$().val();
     $(#player2Name).text(player2);
 
     firstplayer.player = player1;
